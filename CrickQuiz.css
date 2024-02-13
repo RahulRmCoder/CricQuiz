@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75%vh; 
+}
+
+.im1{
+    width: 20%;
+
+}
+ .im2 {
+    width: 20%;
+}
+
+h1 {
+   
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: aqua;
+    text-align: center;
+}
+
+.creative {
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: rgb(30, 111, 187);
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 10px; /* Add margin for spacing */
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    color: black;
+    background-color: cyan;
+    border-color: cyan;
+    font-size: 3rem;
+}
+.creative2{
+    color: darkgreen;
+}
+.creative3{
+    color: orange;
+}
+.creative5{
+    color:red
+}
+
+button:hover {
+    box-shadow: 0 0 5px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+}
+footer{
+    color: aliceblue;
+}
+.CREATIVE{
+    font-family: 'Lobster', cursive;
+    color: cyan;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .im1, .im2 {
+        width: 50%; margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .creative {
+        font-size: 1.5rem;
+    }
+
+    button {
+        font-size: 1.5rem;
+    }
+}

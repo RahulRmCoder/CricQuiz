@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+    background-color: black;
+}
+p{
+    display:inline-flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0px;
+    height: 70px;
+    width: 200px;
+}
+h1 {
+   
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: aqua;
+    text-align: center;
+}
+h2{
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+button {
+    margin: 10px; /* Add margin for spacing */
+    box-shadow: 0 0 5px darkblue, 0 0 25px darkblue;
+    color: black;
+    background-color: darkblue;
+    border-color: darkblue;
+}
+button:hover {
+    box-shadow: 0 0 5px rgb(44, 97, 212), 0 0 50px rgb(44, 97, 212), 0 0 100px rgb(44, 97, 212), 0 0 200px rgb(44, 97, 212);
+}
+#answer-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%vh; 
+    gap:50px
+}
+
+#nbtn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top:50px ;
+    justify-content: center;
+    align-items: center;
+}
+#a1 {
+    margin: 10px; /* Add margin for spacing */
+    box-shadow: 0 0 5px red, 0 0 25px red;
+    color: white;
+    display: flex;
+    background-color: red;
+    border-color: red;
+    font-size: 2rem;
+}
+.creative2{
+    color: black;
+}
+#a1:hover {
+    box-shadow: 0 0 5px yellow, 0 0 50px yellow, 0 0 100px yellow, 0 0 200px yellow;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+    }
+    #answer-buttons {
+      flex-direction: column;
+      height: auto;
+    }
+    button {
+      font-size: 1.5rem;
+      padding: 10px;
+    }
+    #nbtn {
+      padding-top: 20px;
+    }
+  }

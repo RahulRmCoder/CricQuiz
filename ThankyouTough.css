@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: rgb(255, 255, 119);
+    text-align: center;
+}
+h2{
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: rgb(101, 249, 98);
+    text-align: center;
+}
+p{
+    color: rgb(80, 174, 246);
+    text-align: center;
+    font-size: 3rem;
+}
+.CREATIVE{
+    font-family: 'Lobster', cursive;
+    color: cyan;
+}
+@media only screen and (max-width: 600px) { 
+    h1 { 
+        font-size: 5rem; 
+    } 
+    h2 { 
+        font-size: 3rem; 
+    } 
+    p { 
+        font-size: 2rem; 
+    } 
+}

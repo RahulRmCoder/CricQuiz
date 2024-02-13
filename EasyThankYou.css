@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto', 'sans-serif';
+    margin: 0;
+    background-color: black;
+}
+h1 {
+   
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: rgb(255, 255, 119);
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    margin: 0px;
+    height: 70px;
+    width: 200px;
+    text-align: center;
+}
